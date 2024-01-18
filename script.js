@@ -20,7 +20,7 @@ function newElement(event){
     //appending the tasks with the poke ball close button
     var span = document.createElement("SPAN");
     var img = document.createElement("img"); //setting the close to the pokeball image
-    img.src = "/Users/lottiejudge/To do list JS/images/close.png"
+    img.src = "images/close.png"
     img.width = "20"; //img in JS are just numbers no need for px etc
     img.height = "20";
     span.className = "close";
