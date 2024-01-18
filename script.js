@@ -41,7 +41,7 @@ var i;
 for (i = 0; i < myNodelist.length; i++) { //the for loop for iterating through each list item and appending it with a close button
   var span = document.createElement("SPAN");//creating a span element that contains the close button
   var img = document.createElement("img"); //setting the text to \u26AB which represents a pokeball symbol (to close out)
-  img.src = "/Users/lottiejudge/To do list JS/images/close.png"
+  img.src = "images/close.png"
   span.className = "close";
   img.width = "20";
   img.height = "20";
