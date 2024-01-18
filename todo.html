@@ -1,0 +1,35 @@
+<!DOCTYPE html> <!--Declares it to be a html sheet-->
+<html lang="en"> <!-- the language it should be reading - English-->
+  <head> <!-- container for the meta data (data about data yo)-->
+    <meta charset="UTF-8"> <!--displaying and translating the html on broswers-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--setting the viewport and scale to make sure the code is repsonsive for different screen sizes -->
+    <link rel="stylesheet" type="text/css" href="stylesheet.css"> <!--links the css to the html-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"> <!--Pokemon font from google-->
+    <title>To do! </title> <!-- page title that you cna view at the tob of the tab -->
+  </head>
+<body>
+  <div id="taskDiv" class="header"><!--div at top of the page -->
+    <h2>Current tasks</h2>
+    <input type="text" id="taskIn" placeholder="Task..">
+    <span onclick="newElement()" class="addBtn" id="saveBtn">save</span> <!--on click creates a new element, in this case task each time you submit the data--> 
+  </div>
+  <ul id="tasklist">
+    <li>Eat pizza</li>
+    <li>Walk dogs</li>
+    <li>Sofa yoga</li>
+  </ul>
+
+  <script src="script.js"></script>
+</body>
+
+<footer>
+  <p>Thanks for visiting friend! <br>
+    Good luck out there 
+     
+  </p>
+</footer>
+
+</html>
+
